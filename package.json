@@ -1,0 +1,33 @@
+{
+  "name": "spinal-env-viewer-plugin-park-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dedent": "^0.7.0",
+    "vue-codemirror": "^4.0.6",
+    "bacstack": "0.0.1-beta.13",
+    "spinal-env-viewer-plugin-network-tree-service": "git+https://github.com/spinalcom/spinal-env-viewer-plugin-network-tree-service.git",
+    "spinal-env-viewer-context-menu-service": "git+https://github.com/spinalcom/spinal-env-viewer-context-menu-service.git",
+    "spinal-env-viewer-graph-service": "git+https://github.com/spinalcom/Spinal-Graph-Service.git",
+    "spinal-env-viewer-plugin-device_profile": "git+https://github.com/spinalcom/spinal-env-viewer-plugin-device_profile.git",
+    "spinal-model-bmsnetwork": "git+https://github.com/spinalcom/spinal-model-bmsnetwork.git",
+    "spinal-model-bacnet": "git+https://github.com/spinalcom/spinal-model-bacnet.git",
+    "spinal-model-pcvue": "git+https://github.com/spinalcom/spinal-model-pcvue.git",
+    "vue-notification": "^1.3.20",
+    "uuid": "^8.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "vueify",
+      "babelify",
+      "imgurify"
+    ]
+  }
+}
